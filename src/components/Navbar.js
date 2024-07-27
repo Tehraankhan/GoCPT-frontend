@@ -15,7 +15,7 @@ export default function Navbar() {
         >
           <div className="sm:w-[100%] xl:w-[0%] font-padyakke text-[white] flex flex-row xl:left-[25px] relative">
             <div className=" w-[100%] flex flex-row sm:justify-around">
-              <h1 className=" text-[#F197F4] sm:text-[44px] xl:text-[64px] ">
+              <h1 className=" text-[#F197F4] sm:text-[44px] xl:text-[45px] ">
                 Go<span className="text-[#2B3A63]">Cpt</span>
               </h1>
 

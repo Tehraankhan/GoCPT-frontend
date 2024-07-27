@@ -24,7 +24,7 @@ export default function Ourstory() {
           talented providers, the idea for goCPT was born.
         </p>
         <div className="font-offside flex xl:flex-row sm:flex-col w-[100%] h-[100%] xl:justify-between ">
-          <div className="flex flex-col sm:mt-[20px] sm:mx-auto items-center  sm:w-[90%] sm:h-[66%] xl:w-[40%] xl:h-[65%] rounded-[30px] bg-[rgba(255,255,255,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)]">
+          <div className="flex flex-col sm:mt-[20px] sm:mx-auto items-center  sm:w-[90%] sm:h-[66%] xl:w-[40%] xl:h-[95%] rounded-[30px] bg-[rgba(255,255,255,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)]">
             <h1 className="xl:text-[40px] sm:text-[30px] text-[white] text-center ">
               Our Mission
             </h1>
@@ -37,7 +37,7 @@ export default function Ourstory() {
               the coding and billing process.
             </h1>
           </div>
-          <div className="flex flex-col sm:mt-[10px] sm:mx-auto sm:w-[90%] sm:h-[290px] xl:mr-[90px] items-center xl:w-[40%] xl:h-[65%] xl:mt-[-61px] rounded-[30px] bg-[rgba(255,255,255,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)]">
+          <div className="flex flex-col sm:mt-[10px] sm:mx-auto sm:w-[90%] sm:h-[290px] xl:mr-[90px] items-center xl:w-[40%] xl:h-[95%] xl:mt-[-61px] rounded-[30px] bg-[rgba(255,255,255,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)]">
             <h1 className="text-[30px] text-[white] text-center ">
               Our Vision
             </h1>
