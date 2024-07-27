@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import ellipses from './ellipses.png'
 import beats from '../../beats.png'
+import { Link } from "react-router-dom";
 
 export default function Signin(){
 
@@ -23,7 +24,7 @@ export default function Signin(){
         }}
       >
       <div className="form-container sign-up-container  border-[1px] border-[black]">
-      <div className="font-jura flex flex-col bg-[rgba(255,255,255,0.02)] shadow-box-shadow3 rounded-[30px] w-[80%] h-[90%] mx-auto mt-[40px] border-[1px] border-[rgba(255,255,255,0.25)] ">
+      <div className="font-jura flex flex-col bg-[rgba(255,255,255,0.02)] shadow-box-shadow3 rounded-[30px] w-[100%] h-[90%] mx-auto mt-[40px] border-[1px] border-[rgba(255,255,255,0.25)] ">
           <h1 className="text-[45px] font-jura text-center text-white ">Sign Up</h1>
           <div className="flex flex-col mt-[30px]">
             <label className="text-[white] ml-[70px]">Name</label>
@@ -41,9 +42,13 @@ export default function Signin(){
              <label className="text-[white] ml-[70px]">Confirm Password</label>
           <input className="w-[80%] pl-[10px] h-[60px]  mx-auto  border-[1px] border-[white] bg-[rgba(0,0,0,0.5)] rounded-[15px]" type="password" placeholder="Confirm Password" />
           </div>
-          
-         
-          <button className="border-[1px] border-[rgba(255,255,255,1)] text-center pb-[50px] text-[white] text-[32px] w-[170px] h-[46px] rounded-[10px] bg-button-gradient-color3 mt-[40px] ml-[240px]">Sign Up</button>
+       <Link to={{ pathname: '/Application' }}> 
+         <div className="w-[100%] h-[full] flex flex-col ">
+              
+                    <button className="border-[1px] border-[rgba(255,255,255,1)] text-center pb-[50px] text-[white] text-[32px] w-[170px] h-[46px] rounded-[10px] bg-button-gradient-color3 mt-[40px] mx-auto">Sign Up</button>
+ 
+         </div>
+         </Link>
         </div>
       </div>
       <div className="form-container sign-in-container " style={{ visibility:isRightPanelActive   ? 'hidden' : '' }}>
@@ -58,11 +63,15 @@ export default function Signin(){
           <input className="w-[80%] pl-[10px] h-[60px]  mx-auto  border-[1px] border-[white] bg-[rgba(0,0,0,0.5)] rounded-[15px]" type="password" placeholder="Password" />
           </div>
           <label className="ml-[70px] text-white mt-[20px]">Forgot Password?</label>
-         
-          <button className="border-[1px] border-[rgba(255,255,255,1)] text-center pb-[50px] text-[white] text-[32px] w-[110px] h-[46px] rounded-[10px] bg-button-gradient-color3 mt-[40px] ml-[240px]">Log In</button>
-        </div>
           
-        
+          <Link to={{ pathname: '/Application' }}> 
+          <div className="w-[100%] h-[full] flex flex-col ">
+                    <button className="border-[1px] border-[rgba(255,255,255,1)] text-center pb-[50px] text-[white] text-[32px] w-[170px] h-[46px] rounded-[10px] bg-button-gradient-color3 mt-[40px] mx-auto">Log In</button>
+
+         </div>       
+         
+           </Link>
+         </div>
       </div>
       <div className="overlay-container">
         <div className="overlay">

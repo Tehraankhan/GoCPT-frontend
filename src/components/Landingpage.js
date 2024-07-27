@@ -31,23 +31,23 @@ export default function Landingpage(){
         <Keyfeatures />
         <About />
       </section>
-
+ 
       <section className="py-20 parallax">
         <Ourstory />
       </section>
 
-      <section className="py-20 ">
+      <section className="">
         <Informationofgocpt />
       </section>
 
-      <section className="py-20 parallax bg-[black]">
+      <section className="py-20 bg-ellispses sm:min-h-[3892px] xl:min-h-[1200px] bg-fixed bg-center bg-no-repeat bg-cover bg-[black]">
         <Contact />
       </section>
-
+ 
       <section className="py-20 bg-[black]">
         <SocialLinks />
       </section>
-       <Navbar />
+       <Navbar /> 
     </div>
     
     </>)

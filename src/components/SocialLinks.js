@@ -3,7 +3,7 @@ import React from "react";
 export default function SocialLinks() {
   return (
     <>
-      <div className="absolute top-[8950px] w-[100%]  h-[361px]  bg-[black] text-[white]">
+      <div className="absolute xl:top-[9000px] sm:top-[11900px] w-[100%]  h-[100%]  bg-[black] text-[white]">
         <div className="w-[90%] mx-auto ">
         <div className="float-left mt-[30px]">
           <div className="font-padyakke flex flex-row font-normal leading-[79.22px]">

@@ -41,7 +41,10 @@ module.exports = {
         'image-bg-color':'linear-gradient(180deg, rgba(0, 0, 0, 0) 66.5%, #000000 100%)',
         'button-gradient-color4':'linear-gradient(180deg, rgba(241, 151, 244, 0.75) 0%, rgba(43, 58, 99, 0.75) 100%)',
         'button-gradient-color5':'linear-gradient(180deg, #302438 0%, #936094 100%)',
-        'box-gradient-color':'linear-gradient(180deg, rgba(241, 151, 244, 0.8) 0%, rgba(43, 58, 99, 0.8) 100%)'
+        'box-gradient-color':'linear-gradient(180deg, rgba(241, 151, 244, 0.8) 0%, rgba(43, 58, 99, 0.8) 100%)',
+        'ellispses':"url('./ellipses.png')",
+        'beats':"url('./beats.png')"
+
                                                 
       },
       fontFamily: {
@@ -56,6 +59,22 @@ module.exports = {
         '3d': '1px 1px 0 #000, -1px -1px 0 #000, 2px 2px 0 #000, -2px -2px 0 #000',
         '3d-heavy': '1px 1px 0 #000, -1px -1px 0 #000, 2px 2px 0 #000, -2px -2px 0 #000, 3px 3px 0 #000, -3px -3px 0 #000',
       }
+    },
+    screens: {
+      'sm': '220px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1200px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1440px',
+      // => @media (min-width: 1536px) { ... }
     },
   },
   plugins: [],

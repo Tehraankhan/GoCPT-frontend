@@ -15,12 +15,12 @@ export default function Informationofgocpt() {
   const { isDarkMode, isAlternateDarkMode, toggleMode } = useContext(ThemeContext);
   return (
     <>
-         <div className={`flex flex-col text-center absolute w-[100%] h-[4280px]  top-[3700px] text-[white] ${isDarkMode ? (isAlternateDarkMode ? 'bg-black' : 'bg-white') : ' bg-[rgba(28,39,69,1)]'}`}>
+         <div className={`flex flex-col text-center absolute w-[100%] xl:h-[4280px] sm:h-[6448px] sm:top-[4503px] xl:top-[3700px] text-[white] ${isDarkMode ? (isAlternateDarkMode ? 'bg-black' : 'bg-white') : ' bg-[rgba(28,39,69,1)]'}`}>
 
       
         <div className="flex flex-col">
-          <h1 className="text-center underline text-[64px]">why Gocpt?</h1>
-          <div className="text-[34px] font-normal leading-[40.22px]">
+          <h1 className="text-center underline sm:text-[34px] xl:text-[64px]">why Gocpt?</h1>
+          <div className="sm:text-[20px] sm:leading-[28.22px] xl:text-[34px] font-normal xl:leading-[40.22px]">
             <p className="mt-[40px]">
               At goCPT, we understand the unique challenges mental health
               professionals face. Our app is designed<br></br> with your needs
@@ -47,13 +47,14 @@ export default function Informationofgocpt() {
             </p>
           </div>
         </div>
-        <div className="py-2  parallax-beats ">
-          <div className=" flex rounded-[15px] flex flex-col items-center absolute top-[1000px] w-[90%] h-[2500px] ml-[90px] bg-key-feature-color border-[1px] border-[rgba(255,255,255,0.2)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)]">
-            <p className="text-center underline text-[64px]">
+        <div className="py-2  bg-beats sm:min-h-[6902px] xl:min-h-[4751px] bg-fixed bg-center bg-no-repeat bg-cover ">
+
+          <div className=" flex rounded-[15px] flex flex-col items-center absolute top-[1000px] sm:w-[100%] xl:w-[90%] h-[2500px] xl:ml-[90px] bg-key-feature-color border-[1px] border-[rgba(255,255,255,0.2)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)]">
+            <p className="sm:text-[34px] text-center underline xl:text-[64px]">
               Ensuring CPT Code Accuracy with<br></br> GoCPT App
             </p>
-            <div className="flex flex-row mt-[100px]">
-              <div className="flex flex-col w-[410px] h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] ">
+            <div className="flex sm:flex-col xl:flex-row sm:mt-[100px] xl:mt-[100px] w-[100%] ">
+              <div className="flex flex-col sm:mx-auto sm:w-[300px] sm:mt-[20px] xl:w-[410px] xl:h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] ">
                 <img
                   className="w-[90%] mx-auto mt-[20px]"
                   src={one}
@@ -69,7 +70,7 @@ export default function Informationofgocpt() {
                   your clinical assessment
                 </p>
               </div>
-              <div className=" w-[410px] h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] mx-10"><img
+              <div className="flex flex-col sm:mx-auto sm:w-[300px] sm:mt-[20px] xl:w-[410px] xl:h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] mx-10"><img
                   className="w-[90%] mx-auto mt-[20px]"
                   src={four}
                   alt=""
@@ -83,7 +84,7 @@ export default function Informationofgocpt() {
                   notes paint a complete picture of the patient's condition and
                   your clinical assessment
                 </p></div>
-              <div className=" w-[410px] h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] "><img
+              <div className="flex flex-col sm:mx-auto sm:w-[300px]  sm:mt-[20px] xl:w-[410px] xl:h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] "><img
                   className="w-[90%] mx-auto mt-[20px]"
                   src={five}
                   alt=""
@@ -98,8 +99,8 @@ export default function Informationofgocpt() {
                   your clinical assessment
                 </p></div>
             </div>
-            <div className="flex flex-row mt-[100px]">
-              <div className=" w-[410px] h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] "><img
+            <div className="flex sm:flex-col xl:flex-row sm:mt-[10px] xl:mt-[100px] w-[100%] h-[100%]">
+              <div className=" flex flex-col sm:mx-auto sm:w-[300px] sm:mt-[20px] xl:w-[410px] xl:h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] "><img
                   className="w-[90%] mx-auto mt-[20px]"
                   src={second}
                   alt=""
@@ -113,7 +114,7 @@ export default function Informationofgocpt() {
                   notes paint a complete picture of the patient's condition and
                   your clinical assessment
                 </p></div>
-              <div className=" w-[410px] h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] mx-10"><img
+              <div className="flex flex-col sm:mx-auto sm:w-[300px] sm:mt-[20px] xl:w-[410px] xl:h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] mx-10"><img
                   className="w-[90%] mx-auto mt-[20px]"
                   src={third}
                   alt=""
@@ -127,7 +128,7 @@ export default function Informationofgocpt() {
                   notes paint a complete picture of the patient's condition and
                   your clinical assessment
                 </p></div>
-              <div className=" w-[410px] h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] "><img
+              <div className="flex flex-col sm:mx-auto sm:w-[300px] sm:mt-[20px] xl:w-[410px] xl:h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] "><img
                   className="w-[90%] mx-auto mt-[20px]"
                   src={six}
                   alt=""
@@ -142,8 +143,8 @@ export default function Informationofgocpt() {
                   your clinical assessment
                 </p></div>
             </div>
-            <div className="flex flex-row mt-[100px]">
-              <div className=" w-[410px] h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] "><img
+            <div className="flex sm:flex-col xl:flex-row sm:nt-[10px] xl:mt-[100px] w-[100%] h-[100%]">
+              <div className="flex flex-col sm:mx-auto sm:w-[300px] sm:mt-[20px] xl:w-[410px] xl:h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] "><img
                   className="w-[90%] mx-auto mt-[20px]"
                   src={seven}
                   alt=""
@@ -157,7 +158,7 @@ export default function Informationofgocpt() {
                   notes paint a complete picture of the patient's condition and
                   your clinical assessment
                 </p></div>
-              <div className=" w-[410px] h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] mx-10"><img
+              <div className="flex flex-col sm:mx-auto sm:w-[300px] sm:mt-[20px] xl:w-[410px] xl:h-[600px] shadow rounded-[15px] bg-[rgba(217,217,217,0.1)] border-[1px] border-[rgba(255,255,255,0.15)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)] mx-10"><img
                   className="w-[90%] mx-auto mt-[20px]"
                   src={eight}
                   alt=""
@@ -174,26 +175,26 @@ export default function Informationofgocpt() {
             </div>
           </div>
 
-          <div className="flex flex-col  top-[3590px] absolute w-[100%] h-[690px] bg-key-feature-color border-[1px] border-[rgba(255,255,255,0.2)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)]">
+          <div className="flex flex-col  xl:top-[3592px] sm:top-[5392px] absolute w-[100%] sm:h-[1055px] xl:h-[690px] bg-key-feature-color border-[1px] border-[rgba(255,255,255,0.2)] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.2)]">
             <div className="flex flex-col w-[100%] h-[690px]">
               <h1 className="text-[48px] ">How Can You Contribute?</h1>
               <div className=" w-[90%] h-[400px] mx-auto mt-[20px]  ">
-                <div className="grid grid-cols-2 gap-[100px] ">
-                  <div className="rounded-[30px] w-[100%] h-[156%] border-[1px] border-[rgba(255,255,255,0.13)] bg-[rgba(255,255,255,0.07)] shadow-contribute-shadow ">
-                    <p className="text-center text-[30px] mt-[5px]">
+                <div className="grid sm:grid-cols-1 xl:grid-cols-2 gap-[40px] ">
+                  <div className="flex flex-col rounded-[30px] w-[100%] h-[100%] border-[1px] border-[rgba(255,255,255,0.13)] bg-[rgba(255,255,255,0.07)] shadow-contribute-shadow ">
+                    <p className="text-center sm:text-[24px] xl:text-[30px] mt-[10px]">
                       Sign Up and Use goCPT Beta
                     </p>
-                    <p className="w-[471px] h-[132px] text-center text-[15px] mx-auto mt-[40px]">
+                    <p className="sm:w-[90%] xl:w-[471px] xl:h-[132px] text-center xl:text-[18px] sm:text-[15px] mx-auto sm:mt-[20px] xl:mt-[40px]">
                       Dive into the beta version by signing up here!. Explore
                       its features and discover first hand how GoCPT can
                       simplify your CPT coding processes
                     </p>
                   </div>
-                  <div className="rounded-[30px] w-[100%] h-[156%] border-[1px] border-[rgba(255,255,255,0.13)] bg-[rgba(255,255,255,0.07)] shadow-contribute-shadow ">
-                    <p className="text-center text-[30px] mt-[5px]">
+                  <div className="flex flex-col rounded-[30px] w-[100%] h-[100%] border-[1px] border-[rgba(255,255,255,0.13)] bg-[rgba(255,255,255,0.07)] shadow-contribute-shadow ">
+                    <p className="text-center sm:text-[24px] xl:text-[30px] mt-[10px]">
                       Share Your Feedback
                     </p>
-                    <p className="w-[471px] h-[132px] text-center text-[15px] mx-auto mt-[40px]">
+                    <p className="sm:w-[90%] xl:w-[471px] xl:h-[132px] text-center xl:text-[18px] sm:text-[15px] mx-auto sm:mt-[10px] xl:mt-[40px]">
                       Your experiences and insights matter. Utilize the feedback
                       mechanism within the app to share your thoughts,
                       suggestions, and any issues you encounter. Your feedback
@@ -202,11 +203,11 @@ export default function Informationofgocpt() {
                   </div>
                 </div>
               </div>
-              <div className="w-full mx-auto">
-                <p className="text-center text-[48px] ">
+              <div className="w-full mx-auto sm:mt-[20px] xl:mt-[0px]">
+                <p className="text-center xl:text-[48px] sm:text-[48px]">
                   Join GOCPT on this Journey!
                 </p>
-                <p className="text-center w-[1451px] h-[50px] text-center text-[20px] mt-[40px]">
+                <p className="text-center  h-[50px] text-center text-[20px] mt-[40px]">
                   By participating in the goCPT Beta, you’re not just a user;
                   you’re a vital part of our community shaping the future of
                   mental health billing. Together, we can create an app that
@@ -215,7 +216,7 @@ export default function Informationofgocpt() {
               </div>
 
               <div className="w-full ">
-                <div className=" mx-auto w-[274px] h-[50px] rounded-[10px] [box-shadow:0px_0px_40px_0px_rgba(255,255,255,0.6)] mt-[40px]">
+                <div className=" mx-auto w-[274px] h-[50px] rounded-[10px] [box-shadow:0px_0px_40px_0px_rgba(255,255,255,0.6)] sm:mt-[180px] xl:mt-[40px]">
                   <button className="bg-button-gradient-color border-[1px] border-[rgba(255,255,255,1)] shadow-button-white-shadow text-[30px] rounded-[10px] w-[274px] h-[50px] top-[40px] mx-auto ">
                     Sign Up Today!
                   </button>

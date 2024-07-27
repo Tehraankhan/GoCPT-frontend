@@ -10,7 +10,7 @@
 
 .parallax {
     background-image: url('./ellipses.png');
-    min-height: 2600px;
+    min-height: 3502px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +20,28 @@
 .parallax-beats {
 
     background-image: url('./beats.png');
-    min-height: 4626px;
+    min-height: 5902px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.parallax2 {
+    background-image: url('./ellipses.png');
+    min-height: 2737px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.parallax-beats2 {
+
+    background-image: url('./beats.png');
+    min-height: 4882px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,19 +51,11 @@
 }
 
 
-/* body {
-    font-family: Arial, sans-serif;
-    background: #f6f5f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-} */
 
 .container {
     position:relative;
     min-height: 900px;
+    min-width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
